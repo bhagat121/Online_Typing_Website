@@ -1,0 +1,413 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: Times New Roman, Times, serif;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background-color: #CDF0EA;
+}
+p{
+  font-size: 14px;
+}
+html {
+  scroll-behavior: smooth;
+}
+/*===== Navbar ====*/
+.navbar-default{
+  background-color: #17252A;
+  border-color: transparent;
+  z-index:110;
+  transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  -webkit-transition: all 1s;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #FEFFFF;
+  border-radius: 2px;
+  transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  -webkit-transition: all 1s;
+}
+.navbar-default .navbar-nav > li > a:hover{
+  color: white;
+  background-color: #2B7A78;
+}
+.navbar-default .navbar-nav > li > a:focus{
+  color: #B5B5B5;
+}
+.navbar-brand{
+  padding: 9px 15px;
+}
+.navbar-default .navbar-nav > active > a,
+.navbar-default .navbar-nav > active > a:hover,
+.navbar-default .navbar-nav > active > a:focus{
+  background-color: transparent;
+  color:#f5e942;
+}
+/*===== Header ====*/
+.header{
+  background-image: url("img_file/typing_img.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  -moz-background-size:cover;
+  -0-background-size:cover;
+  -webkit-background-size:cover;
+}
+.testimonial{
+  background-image: url("img_file/photo2.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  -moz-background-size:cover;
+  -0-background-size:cover;
+  -webkit-background-size:cover;
+}
+.header-overlay{
+  background-color:rgb(58,175,169,0.9);
+}
+.testimonial-overlay{
+  margin:0 auto;
+  padding-bottom: 40px;
+  margin-top: 20px;
+}
+.center{
+  text-align: center;
+}
+.center img{
+  cursor: pointer;
+  padding: 20px;
+}
+.logo-area h3{
+  color: #FEFFFF;
+  font-size: 30px;
+  text-align: center;
+  margin: 0;
+
+}
+.img_holder{
+  margin-top: 100px;
+}
+.img_holder h3{
+    color: #17252A;
+    border-radius: 10px;
+    font-size: 32px;
+    font-family: Trattatello, fantasy;
+}
+.about-text h1{
+  color: #17252A;
+  font-size: 35px;
+  font-weight: 300;
+  line-height: 45px;
+  padding-top: 35px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+.inst-text h1{
+  color: #17252A;
+  font-size: 35px;
+  font-weight: 300;
+  line-height: 45px;
+  padding-top: 30px;
+  text-transform: uppercase;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.inst-text h2{
+  color: #17252A;
+  font-size: 35px;
+  font-weight: 300;
+  line-height: 45px;
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.inst-text p{
+  color: #17252A;
+  font-size: 17px;
+  line-height: 28px;
+  font-weight: 300;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.header-text h1 {
+  color: #FEFFFF;
+  font-size: 35px;
+  font-weight: 300;
+  line-height: 45px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.header-text h2 {
+  color: #FEFFFF;
+  font-size: 35px;
+  font-weight: 300;
+  line-height: 45px;
+  padding-top: 30px;
+}
+.header-text p {
+  color: #FEFFFF;
+  font-size: 17px;
+  line-height: 28px;
+  font-weight: 300;
+}
+.header-btns {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align:center;
+}
+.challange{
+  text-align: center;
+  margin-bottom: 30px;
+}
+.logo_class{
+  text-align: center;
+}
+.clear{
+  clear:both;
+}
+/* footer */
+footer{
+  padding-top: 35px;
+  background-color: #17252A;
+  padding-bottom: 30px;
+  border-bottom: 3px solid #129CF3;
+}
+#copyright{
+  width: 60%;
+}
+#copyright p{
+  color: #8C8B8A;
+  font-weight: 600;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.btn-easy,
+.btn-easy:focus,
+.btn-easy:active,
+.btn-easy:visited
+{
+  width: 80%;
+  background: #2B7A78;
+  color: #FEFFFF;
+  border-color: #2B7A78;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  font-size: 19px;
+  text-transform: uppercase;
+  border-radius: 3px;
+  transition:all 1s ;
+  -webkit-transition:all 1s;
+  -moz-transform:all 1s;
+  -o-transition:all 1s;
+}
+.btn-easy:hover{
+  background-color: #17252A;
+  color: #FEFFFF;
+}
+
+.btn-medium,
+.btn-medium:focus,
+.btn-medium:active,
+.btn-medium:visited
+{
+  width: 80%;
+  background: #2B7A78;
+  color: #FEFFFF;
+  border-color: #2B7A78;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  font-size: 19px;
+  text-transform: uppercase;
+  border-radius: 3px;
+  transition:all 1s ;
+  -webkit-transition:all 1s;
+  -moz-transform:all 1s;
+  -o-transition:all 1s;
+}
+.btn-medium:hover{
+  background-color: #17252A;
+  color: #FEFFFF;
+}
+
+.btn-hard,
+.btn-hard:focus,
+.btn-hard:active,
+.btn-hard:visited
+{
+  width: 80%;
+  background: #2B7A78;
+  color: #FEFFFF;
+  border-color: #2B7A78;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  font-size: 19px;
+  text-transform: uppercase;
+  border-radius: 3px;
+  transition:all 1s ;
+  -webkit-transition:all 1s;
+  -moz-transform:all 1s;
+  -o-transition:all 1s;
+}
+.btn-hard:hover{
+  background-color: #17252A;
+  color: #FEFFFF;
+}
+.btn-paragraph,
+.btn-paragraph:focus,
+.btn-paragraph:active,
+.btn-paragraph:visited
+{
+  width: 90%;
+  background: #2B7A78;
+  color: #FEFFFF;
+  border-color: #2B7A78;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  font-size: 19px;
+  text-transform: uppercase;
+  border-radius: 3px;
+  transition:all 1s ;
+  -webkit-transition:all 1s;
+  -moz-transform:all 1s;
+  -o-transition:all 1s;
+}
+.btn-paragraph:hover{
+  background-color: #17252A;
+  color: #FEFFFF;
+}
+.btn-instructions,
+.btn-instructions:focus,
+.btn-instructions:active,
+.btn-instructions:visited
+{
+  width: 90%;
+  background: #2B7A78;
+  color: #FEFFFF;
+  border-color: #2B7A78;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  font-size: 19px;
+  text-transform: uppercase;
+  border-radius: 3px;
+  transition:all 1s ;
+  -webkit-transition:all 1s;
+  -moz-transform:all 1s;
+  -o-transition:all 1s;
+}
+.btn-instructions:hover{
+  background-color: #17252A;
+  color: #FEFFFF;
+}
+.btn-download,
+.btn-download:focus,
+.btn-download:active,
+.btn-download:visited
+{
+  background: transparent;
+  color: #129CF3;
+  border-color: #129CF3;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  font-size: 19px;
+  text-transform: uppercase;
+  border-radius: 3px;
+  transition:all 1s ;
+  -webkit-transition:all 1s;
+  -moz-transform:all 1s;
+  -o-transition:all 1s;
+}
+.btn-download:hover{
+  background-color: #129CF3;
+  color: #fff;
+}
+.btn-tour,
+.btn-tour:focus,
+.btn-tour:active,
+.btn-tour:visited
+{
+  background: transparent;
+  color: #129CF3;
+  border-color: #129CF3;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  font-size: 19px;
+  text-transform: uppercase;
+  border-radius: 3px;
+  transition:all 1s ;
+  -webkit-transition:all 1s;
+  -moz-transform:all 1s;
+  -o-transition:all 1s;
+}
+.btn-tour:hover{
+  background-color: #129CF3;
+  color: #fff;
+}
+#gmail .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  font-size: 15px;
+  transition: transform .2s;
+  vertical-align: middle;
+  line-height: 20px;
+  position: absolute;
+  z-index: 1;
+  width: 240px;
+  top: 80%;
+  left: 50%;
+  margin-left: -120px;
+  text-shadow: 2px 2px 4px #000000;
+}
+#gmail:hover .tooltiptext {
+  visibility: visible;
+}
+
+ .tooltiptext::after {
+  content: " ";
+  position: absolute;
+  bottom: 100%;  /* At the top of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
